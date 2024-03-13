@@ -40,3 +40,5 @@
 <br/>
 => 두 개 이상의 함수를 가져오는 경우 `,`을 사용하여 함수명 입력 <br/>
 ex) `import {Text, Text2} from "./components/Text";`
+
+---

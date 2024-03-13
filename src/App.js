@@ -1,14 +1,20 @@
-import { Text, Text2 } from "./components/Text";
+// import { Text, Text2 } from "./components/ex01/Text";
+import { PropsEx } from "./components/ex02/PropsEx";
 
 function App() {
   return (
     <>
-      <div>1번</div>
-      <div>2번</div>
+      {/* <div>1번</div>
+      <div>2번</div> */}
 
-      <Text />
-      <Text2 />
+      {/* <Text />
+      <Text2 /> */}
       {/* => 컴포넌트 */}
+
+      {/* 02번 영상 */}
+
+      <PropsEx name="김나나" age="13" lan="리엑트" />
+      <PropsEx name="kimLrLr" age="17" lan="자바스크립트" />
     </>
   );
 }
