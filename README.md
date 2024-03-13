@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 1. JSX 문법 규칙
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1. 반드시 부모로 묶여 있어야 된다
 
-## Available Scripts
+### 2. 태그가 비어있을 때 `<></>`(fragment태그)
 
-In the project directory, you can run:
+### 3. 태그는 반드시 닫혀있어야 함
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 2. 컴포넌트 사용 규칙
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. 파일명 첫글자는 대문자
 
-### `npm test`
+### 2. 내보내기(export)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. 필요로 하는 컴포넌트에서 불러오기(import)를 해야함
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 3. 내보내기(export)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 내보내기에는 두 가지 방법이 있음.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> 1. 함수 밑에 `export default 함수명` > <br/>
+>    => 모듈은 기본 내보내기 딱 하나만 가능
+> 2. 함수명 앞에 `export` 입력
 
-### `npm run eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 4. 불러오기(import)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. 최상단에 `import 함수명 from "경로";`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+=> export default로 기본 내보내기를 한 경우
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2. 최상단에 `import {함수명} from "경로";`
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=> 함수명 앞에 export를 사용한 경우
+<br/>
+=> 두 개 이상의 함수를 가져오는 경우 `,`을 사용하여 함수명 입력 <br/>
+ex) `import {Text, Text2} from "./components/Text";`
