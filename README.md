@@ -42,3 +42,17 @@
 ex) `import {Text, Text2} from "./components/Text";`
 
 ---
+
+<br/>
+
+---
+
+<br/>
+
+# 1. map함수 사용 규칙
+
+### 1. map함수를 사용할 때 반드시 key값을 넣어줘야 함
+
+### 2. key값은 유니크(고유값)으로 처리할 것
+
+<br/>

@@ -1,5 +1,6 @@
 // import { Text, Text2 } from "./components/ex01/Text";
 import { DestEx } from "./components/ex02/DestEx";
+import { MapEx } from "./components/ex02/MapEx";
 // import { PropsEx } from "./components/ex02/PropsEx";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <PropsEx name="kimLrLr" age="17" lan="자바스크립트" /> */}
       {/* ------03번 영상------ */}
 
-      <DestEx />
+      {/* <DestEx /> */}
+      <MapEx />
     </>
   );
 }
