@@ -1,6 +1,8 @@
 // import { Text, Text2 } from "./components/ex01/Text";
-import { DestEx } from "./components/ex02/DestEx";
-import { MapEx } from "./components/ex02/MapEx";
+// import { DestEx } from "./components/ex02/DestEx";
+// import { MapEx } from "./components/ex02/MapEx";
+// import { BaseStyle } from "./components/ex03/BaseStyle";
+import { StyledEx } from "./components/ex03/StyledEx";
 // import { PropsEx } from "./components/ex02/PropsEx";
 
 function App() {
@@ -19,7 +21,11 @@ function App() {
       {/* ------03번 영상------ */}
 
       {/* <DestEx /> */}
-      <MapEx />
+      {/* <MapEx /> */}
+      {/* ------04번 영상------ */}
+
+      {/* <BaseStyle /> */}
+      <StyledEx />
     </>
   );
 }
