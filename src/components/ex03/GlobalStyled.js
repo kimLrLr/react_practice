@@ -5,6 +5,6 @@ export const GlobalStyled = createGlobalStyle`
     ${reset}
 
     body{
-        background-color: #333;
+        background-color: #fff;
     }
 `;
