@@ -4,6 +4,8 @@
 // import { BaseStyle } from "./components/ex03/BaseStyle";
 // import { StyledEx } from "./components/ex03/StyledEx";
 import { MyStyleEx } from "./components/ex03/MyStyleEx";
+import { StyledEx02 } from "./components/ex03/StyledEx02";
+import { TCStyle } from "./components/ex03/TCStyle";
 // import { PropsEx } from "./components/ex02/PropsEx";
 
 function App() {
@@ -27,7 +29,10 @@ function App() {
 
       {/* <BaseStyle /> */}
       {/* <StyledEx /> */}
-      <MyStyleEx />
+      {/* <MyStyleEx /> */}
+      {/* <TCStyle /> */}
+      {/* <StyledEx02 /> */}
+      {/* ------05, 06번 영상------ */}
     </>
   );
 }
