@@ -2,7 +2,8 @@
 // import { DestEx } from "./components/ex02/DestEx";
 // import { MapEx } from "./components/ex02/MapEx";
 // import { BaseStyle } from "./components/ex03/BaseStyle";
-import { StyledEx } from "./components/ex03/StyledEx";
+// import { StyledEx } from "./components/ex03/StyledEx";
+import { MyStyleEx } from "./components/ex03/MyStyleEx";
 // import { PropsEx } from "./components/ex02/PropsEx";
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* ------04번 영상------ */}
 
       {/* <BaseStyle /> */}
-      <StyledEx />
+      {/* <StyledEx /> */}
+      <MyStyleEx />
     </>
   );
 }
