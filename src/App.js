@@ -6,6 +6,10 @@
 import { MyStyleEx } from "./components/ex03/MyStyleEx";
 import { StyledEx02 } from "./components/ex03/StyledEx02";
 import { TCStyle } from "./components/ex03/TCStyle";
+import { EventEx } from "./components/ex04/EventEx";
+import { EventEx02 } from "./components/ex04/EventEx02";
+import { MyColorBox } from "./components/ex04/MyColorBox";
+import { PopEx } from "./components/ex04/PopEx";
 // import { PropsEx } from "./components/ex02/PropsEx";
 
 function App() {
@@ -33,6 +37,11 @@ function App() {
       {/* <TCStyle /> */}
       {/* <StyledEx02 /> */}
       {/* ------05, 06번 영상------ */}
+
+      {/* <EventEx /> */}
+      {/* <EventEx02 /> */}
+      {/* <MyColorBox /> */}
+      <PopEx />
     </>
   );
 }
